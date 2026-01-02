@@ -103,5 +103,44 @@ This reframes documentation as part of the system itself, not a passive artifact
 
 This is a **conceptual reference**, not a production UI — intended for teams designing agent workflows, internal tools, or AI-assisted systems.
 
+## Evaluation System
 
+Beyond the prototype UI, this project includes a quality framework for evaluating and improving validator accuracy.
 
+### Evaluation Criteria
+
+*This snapshot shows the rubric used to judge whether documentation is executable by an AI agent.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashleysally00/agent-doc-validator/main/images/evaluation-criteria.png"
+       width="45%"
+       alt="Evaluation Criteria" />
+</p>
+
+### Validation Scoring Results
+
+*This snapshot shows how documentation samples were scored against each evaluation criterion.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashleysally00/agent-doc-validator/main/images/validation-scoring.png"
+       width="45%"
+       alt="Validation Scoring Results" />
+</p>
+
+### Findings & Iterations
+
+*This snapshot shows how recurring failure patterns informed prompt and logic improvements.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashleysally00/agent-doc-validator/main/images/findings-iterations.png"
+       width="45%"
+       alt="Findings and Iterations" />
+</p>
+
+The evaluation system demonstrates:
+- **Criteria definition:** Five standards for judging whether the validator correctly identifies agent-breaking issues
+- **Performance testing:** Results from 15 documentation samples scored against all criteria
+- **Iteration process:** How patterns in failures led to prompt improvements
+- **Measurable impact:** System accuracy improved from 58% to 89% after two iterations
+  
+This example shows how governance can be applied to AI tools through clear readiness criteria, measurement, and iteration.
