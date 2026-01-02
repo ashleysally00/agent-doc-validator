@@ -63,6 +63,7 @@ This reframes documentation as part of the system itself, not a passive artifact
 
 ### Detailed Issue Analysis
 
+**Error & recovery guidance** — explains what went wrong and provides clear, actionable next steps to help users recover and continue.
 
 <p align="center">
   <img src="images/03%20-%20Detailed%20Issues.png"
@@ -79,6 +80,7 @@ This reframes documentation as part of the system itself, not a passive artifact
 
 ### Validation Complete
 
+**Outcome clarity & next steps** — communicates final status, measurable improvement, and clear actions so users know what to do next.
 
 <p align="center">
   <img src="images/05%20-%20Final%20Status.png"
